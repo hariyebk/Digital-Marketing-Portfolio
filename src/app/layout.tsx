@@ -23,7 +23,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 
   return (
     <html lang="en">
-      <body className={fredoka.className} data-theme={theme?.value ? theme.value : 'dark'}>
+      <body className={fredoka.className} data-theme={theme?.value ? theme.value : 'light'}>
         <div className="bg-light dark:bg-dark">
           {children}
         </div>
