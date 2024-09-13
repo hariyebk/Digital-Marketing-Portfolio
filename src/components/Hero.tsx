@@ -68,7 +68,7 @@ export default function Hero() {
                         <div className="w-fit h-auto bg-[#d8b4fe] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
                             <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> SEO </p>
                         </div>
-                        <div className="w-fit h-auto bg-[#92c5fc] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
+                        <div className="verysmall:w-fit max-verysmall:max-w-[245px] h-auto bg-[#92c5fc] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
                             <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Campaign performance Monitoring and Evaluation </p>
                         </div>
                     </div>
