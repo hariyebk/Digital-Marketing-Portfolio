@@ -10,6 +10,16 @@ export default function Navbar() {
     const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
 
     useEffect(() => {
+        const theme = getCookie("theme")
+        if(theme){
+            if(theme === "dark"){
+                setIsDarkMode(false)
+            }
+            else return
+        }
+    }, [])
+
+    useEffect(() => { 
         if(isDarkMode){
             toggleLight()
         }

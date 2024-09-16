@@ -29,11 +29,11 @@ export default function Hero() {
                         <IoMdMail className="w-5 h-5 text-secondary dark:text-white" />
                         <p className="text-[18px] text-secondary dark:text-white font-normal"> Email </p>
                     </Link>
-                    <Link href="https://t.me/haribk" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
+                    <Link href="https://t.me/haribk" target="_blank" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
                         <FaTelegram className="w-5 h-5 text-secondary dark:text-white" />
                         <p className="text-[18px] text-secondary dark:text-white font-normal"> Telegram  </p>
                     </Link>
-                    <Link href="www.linkedin.com/in/hariyebk" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
+                    <Link href="https://www.linkedin.com/in/hariyebk/" target="_blank" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
                         <FaLinkedin className="w-5 h-5 text-secondary dark:text-white" />
                         <p className="text-[18px] text-secondary dark:text-white font-normal"> Linkedin  </p>
                     </Link>
