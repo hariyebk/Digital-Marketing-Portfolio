@@ -4,8 +4,7 @@ import MetaLogo from "../../public/images/meta-logo.png"
 import { IoMdMail } from "react-icons/io";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaTelegram } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
-import { BsTwitterX } from "react-icons/bs";
+// import { FaLinkedin } from "react-icons/fa6";
 import Avatar from "../../public/images/avatar.png"
 
 export default function Hero() {
@@ -33,10 +32,10 @@ export default function Hero() {
                         <FaTelegram className="w-5 h-5 text-secondary dark:text-white" />
                         <p className="text-[18px] text-secondary dark:text-white font-normal"> Telegram  </p>
                     </Link>
-                    <Link href="https://www.linkedin.com/in/hariyebk/" target="_blank" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
+                    {/* <Link href="https://www.linkedin.com/in/hariyebk/" target="_blank" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
                         <FaLinkedin className="w-5 h-5 text-secondary dark:text-white" />
                         <p className="text-[18px] text-secondary dark:text-white font-normal"> Linkedin  </p>
-                    </Link>
+                    </Link> */}
                     <Link href="https://utfs.io/f/251d201e-5f49-4154-b033-3d33018128ce-q7pjyw.pdf" target="_blank" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
                         <IoDocumentTextOutline className="w-5 h-5 text-secondary dark:text-white" />
                         <p className="text-[18px] text-secondary dark:text-white font-normal"> Resume </p>
