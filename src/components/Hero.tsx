@@ -8,7 +8,6 @@ import { FaTelegram } from "react-icons/fa6";
 import Avatar from "../../public/images/avatar.png"
 
 export default function Hero() {
-    
 
     return (
         <section className='max-small:mt-10 small:mt-16 w-full flex max-medium:flex-col max-medium:items-center medium:items-start medium:justify-between text-secondary dark:text-white'>
@@ -20,7 +19,7 @@ export default function Hero() {
                     <h1 className="mt-2 max-small:text-[30px] small:text-[40px] wide:text-[50px] font-bold"> Meta Certified </h1>
                 </div>
                 <h3 className="max-small:text-[23px] small:text-2xl wide:text-3xl mt-5"> Digital Marketing Associate </h3>
-                <p className="mt-6 max-verysmall:text-base verysmall:text-xl font-normal max-w-[480px]"> With a strong understanding of Meta's platforms and a commitment to delivering data-driven marketing solutions, I want to help brands succeed in the online world. </p>
+                <p className="mt-6 max-verysmall:text-base verysmall:text-xl font-normal max-w-[480px]"> With a strong understanding of Social media platforms and Search engines, combined with a passion for delivering data-driven marketing strategies, I want to help brands succeed in the online world. </p>
                 <p className="max-small:mt-5 small:mt-10 text-[18px] font-medium"> Lets connect! </p>
                 <h2 className="mt-6 text-2xl font-normal"> Socials </h2>
                 <div className="mt-4 max-w-[452px] flex flex-wrap items-start max-verysmall:gap-6 verysmall:gap-4">
