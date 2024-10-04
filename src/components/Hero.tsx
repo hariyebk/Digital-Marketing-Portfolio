@@ -35,39 +35,39 @@ export default function Hero() {
                         <FaLinkedin className="w-5 h-5 text-secondary dark:text-white" />
                         <p className="text-[18px] text-secondary dark:text-white font-normal"> Linkedin  </p>
                     </Link> */}
-                    <Link href="https://utfs.io/f/251d201e-5f49-4154-b033-3d33018128ce-q7pjyw.pdf" target="_blank" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
+                    <Link href="https://utfs.io/f/R1yUTPAOq9Qzyj456kPhVtlsxfDRYSpKQU0bmuFnekI3Pc8C" target="_blank" className="px-4 py-2 bg-buttonLight dark:bg-buttonDark rounded-xl flex items-center justify-center gap-2">
                         <IoDocumentTextOutline className="w-5 h-5 text-secondary dark:text-white" />
                         <p className="text-[18px] text-secondary dark:text-white font-normal"> Resume </p>
                     </Link>
                 </div>
             </div>
-            <div className="">
+            <div className="wide:-mr:16 enlarge:-mr-24">
                 <div className="wide:w-[250px] wide:h-[200px] medium:w-[200px] medium:h-[150px] max-medium:hidden mt-5 max-wide:ml-10 wide:ml-14 flex items-center justify-center">
                     <Image src={Avatar} alt="profile-image" className="object-cover" />
                 </div>
-                <div className="max-medium:mt-16 medium:mt-14 medium:-ml-3 max-medium:max-w-[470px]">
+                <div className="max-medium:mt-16 medium:mt-14 max-medium:max-w-[470px]">
                     <h2 className="text-2xl font-normal"> Skill Sets </h2>
                     <div className="flex flex-wrap items-center gap-4 mt-7 medium:max-w-[390px] wide:max-w-[500px]">
                         <div className="w-fit h-auto bg-[#92c5fc] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
                             <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Meta ads manager </p>
                         </div>
                         <div className="w-fit h-auto bg-[#d8b4fe] rounded-md max-medium:px-3 medium:px-1.5  wide:px-3 py-2 flex items-center justify-center">
-                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Analyzing KPI's </p>
-                        </div>
-                        <div className="w-fit h-auto bg-[#fba6a4] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
-                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Building a brand </p>
+                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base">  Google Ads </p>
                         </div>
                         <div className="w-fit h-auto bg-[#fdba74] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
-                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Marketing metrics </p>
+                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base">  Web Analytics </p>
+                        </div>
+                        <div className="w-fit h-auto bg-[#d8b4fe] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
+                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> SEO & SEM </p>
                         </div>
                         <div className="w-fit h-auto bg-[#86efac] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
                             <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Creating and managing content </p>
                         </div>
-                        <div className="w-fit h-auto bg-[#d8b4fe] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
-                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> SEO </p>
-                        </div>
                         <div className="verysmall:w-fit max-verysmall:max-w-[245px] h-auto bg-[#92c5fc] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
-                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Campaign performance Monitoring and Evaluation </p>
+                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Email Marketing </p>
+                        </div>
+                        <div className="w-fit h-auto bg-[#fba6a4] rounded-md max-medium:px-3 medium:px-1.5 wide:px-3 py-2 flex items-center justify-center">
+                            <p className="text-secondary font-medium max-verysmall:text-sm verysmall:text-base medium:text-sm wide:text-base"> Building a brand </p>
                         </div>
                     </div>
                 </div>

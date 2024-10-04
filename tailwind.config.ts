@@ -10,7 +10,9 @@ const config: Config = {
   theme: {
     screens: {
       wide: '1088px',
+      enlarge: "1294px",
       medium: "974px",
+      break: "719px",
       small: "590px",
       verysmall: "521px",
       tiny: "400px"
