@@ -5,7 +5,7 @@ import { IoMdMail } from "react-icons/io";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaTelegram } from "react-icons/fa6";
 // import { FaLinkedin } from "react-icons/fa6";
-import Avatar from "../../public/images/avatar.png"
+import Avatar from "../../public/images/hari.png"
 
 export default function Hero() {
 
